@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">PagePiper</h1>
+    </header>
+
+    <!-- Default State -->
+    <div id="state-default" class="state">
+      <button id="btn-clip-page" class="btn btn-primary" aria-label="Clip full page as markdown">
+        Clip Page
+      </button>
+      <button id="btn-clip-selection" class="btn btn-secondary" disabled aria-label="Clip selected text as markdown">
+        Clip Selection
+      </button>
+      <p id="selection-hint" class="hint">Select text on the page to enable</p>
+    </div>
+
+    <!-- Loading State -->
+    <div id="state-loading" class="state hidden">
+      <div class="spinner" role="status" aria-label="Clipping in progress"></div>
+      <p class="status-text">Clipping...</p>
+    </div>
+
+    <!-- Preview State -->
+    <div id="state-preview" class="state hidden">
+      <div class="preview-header">
+        <span id="preview-stats" class="stats"></span>
+      </div>
+      <pre id="preview-content" class="preview" tabindex="0"></pre>
+      <div class="preview-actions">
+        <button id="btn-copy" class="btn btn-primary" aria-label="Copy markdown to clipboard">
+          Copy to Clipboard
+        </button>
+        <button id="btn-cancel" class="btn btn-ghost" aria-label="Cancel and go back">
+          Cancel
+        </button>
+      </div>
+    </div>
+
+    <!-- Success State -->
+    <div id="state-success" class="state hidden">
+      <div class="success-icon" aria-hidden="true">&#10003;</div>
+      <p class="status-text">Copied!</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="state-error" class="state hidden">
+      <p id="error-message" class="error-text"></p>
+      <button id="btn-retry" class="btn btn-ghost" aria-label="Try again">
+        Try Again
+      </button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

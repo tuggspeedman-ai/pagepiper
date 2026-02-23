@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.zip
+*.crx
+*.pem
+project-plan.md
+skills-lock.json
+.agents/
+.claude/
+icons/pagepiper-icon-128.png

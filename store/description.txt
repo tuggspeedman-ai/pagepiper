@@ -1,0 +1,31 @@
+Convert any web page to clean markdown and copy to clipboard. Clip full pages or just your selection — perfect for saving articles to Obsidian, Notion, or any markdown-based tool.
+
+HOW IT WORKS
+
+Click the PagePiper icon (or use a keyboard shortcut) and the extension extracts the article content from the page, strips away ads, navigation, and sidebars, then converts it to clean markdown. Preview the result right in the popup, then copy to clipboard with one click.
+
+FEATURES
+
+• Full page clip — Extracts article content, strips ads/nav/sidebars
+• Selection clip — Clip just the text you've highlighted
+• Preview before copy — See the markdown before it hits your clipboard
+• Keyboard shortcuts — Alt+Shift+C (full page), Alt+Shift+S (selection)
+• Right-click menu — Select text → right-click → "Clip selection as Markdown"
+• Table support — HTML tables convert to proper markdown tables
+• Smart cleanup — Strips images, ads, photo credits, tracker URLs, empty links
+• Absolute links — Relative URLs are resolved to full absolute URLs
+
+EVERY CLIP INCLUDES
+
+• Page title as heading
+• Source URL
+• Date clipped
+• Clean markdown content
+
+PRIVACY FIRST
+
+Everything runs locally in your browser. No data collection, no analytics, no network requests, no accounts. PagePiper uses the activeTab permission — it only accesses a page when you explicitly trigger it.
+
+OPEN SOURCE
+
+PagePiper is fully open source: https://github.com/tuggspeedman-ai/pagepiper

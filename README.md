@@ -1,5 +1,7 @@
 # PagePiper
 
+**[Install from Chrome Web Store](https://chromewebstore.google.com/detail/PagePiper/bhjfdfjpbchjnjdpfjdjdnjjaoloehlp)**
+
 A Chrome extension that converts web pages to clean markdown and copies to clipboard. Clip full pages or just your selection - perfect for saving articles to Obsidian, Notion, or any markdown-based tool.
 
 ---
